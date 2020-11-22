@@ -1,0 +1,130 @@
+import {Dimensions} from 'react-native';
+
+export const DATA = [
+  {
+    popularity: 1307.787,
+    vote_count: 209,
+    video: false,
+    poster_path: '/9HT9982bzgN5on1sLRmc1GMn6ZC.jpg',
+    id: 671039,
+    adult: false,
+    backdrop_path: '/gnf4Cb2rms69QbCnGFJyqwBWsxv.jpg',
+    original_language: 'fr',
+    original_title: 'Bronx',
+    genre_ids: [53, 28, 18, 80],
+    title: 'Rogue City',
+    vote_average: 6,
+    overview:
+      'Caught in the crosshairs of police corruption and Marseille’s warring gangs, a loyal cop must protect his squad by taking matters into his own hands.',
+    release_date: '2020-10-30',
+  },
+  {
+    popularity: 1259.974,
+    vote_count: 152,
+    video: false,
+    poster_path: '/ugZW8ocsrfgI95pnQ7wrmKDxIe.jpg',
+    id: 724989,
+    adult: false,
+    backdrop_path: '/86L8wqGMDbwURPni2t7FQ0nDjsH.jpg',
+    original_language: 'en',
+    original_title: 'Hard Kill',
+    genre_ids: [28, 53],
+    title: 'Hard Kill',
+    vote_average: 5,
+    overview:
+      'The work of billionaire tech CEO Donovan Chalmers is so valuable that he hires mercenaries to protect it, and a terrorist group kidnaps his daughter just to get it.',
+    release_date: '2020-10-23',
+  },
+  {
+    popularity: 964.599,
+    vote_count: 720,
+    video: false,
+    poster_path: '/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg',
+    id: 531219,
+    adult: false,
+    backdrop_path: '/8rIoyM6zYXJNjzGseT3MRusMPWl.jpg',
+    original_language: 'en',
+    original_title: "Roald Dahl's The Witches",
+    genre_ids: [14, 10751, 12, 35, 27],
+    title: "Roald Dahl's The Witches",
+    vote_average: 6.9,
+    overview:
+      "In late 1967, a young orphaned boy goes to live with his loving grandma in the rural Alabama town of Demopolis. As the boy and his grandmother encounter some deceptively glamorous but thoroughly diabolical witches, she wisely whisks him away to a seaside resort. Regrettably, they arrive at precisely the same time that the world's Grand High Witch has gathered.",
+    release_date: '2020-10-26',
+  },
+  {
+    popularity: 732.486,
+    vote_count: 1912,
+    video: false,
+    poster_path: '/kiX7UYfOpYrMFSAGbI6j1pFkLzQ.jpg',
+    id: 613504,
+    adult: false,
+    backdrop_path: '/6hgItrYQEG33y0I7yP2SRl2ei4w.jpg',
+    original_language: 'en',
+    original_title: 'After We Collided',
+    genre_ids: [10749, 18],
+    title: 'After We Collided',
+    vote_average: 7.3,
+    overview:
+      'Tessa finds herself struggling with her complicated relationship with Hardin; she faces a dilemma that could change their lives forever.',
+    release_date: '2020-09-02',
+  },
+  {
+    popularity: 681.098,
+    vote_count: 735,
+    video: false,
+    poster_path: '/xZNw9xxtwbEf25NYoz52KdbXHPM.jpg',
+    id: 340102,
+    adult: false,
+    backdrop_path: '/eCIvqa3QVCx6H09bdeOS8Al2Sqy.jpg',
+    original_language: 'en',
+    original_title: 'The New Mutants',
+    genre_ids: [28, 878, 27, 12],
+    title: 'The New Mutants',
+    vote_average: 6.3,
+    overview:
+      'Five young mutants, just discovering their abilities while held in a secret facility against their will, fight to escape their past sins and save themselves.',
+    release_date: '2020-08-26',
+  },
+  {
+    popularity: 697.979,
+    vote_count: 154,
+    video: false,
+    poster_path: '/hddzYJtfYYeMDOQVcH58n8m1W3A.jpg',
+    id: 741074,
+    adult: false,
+    backdrop_path: '/DA7gzvlBoxMNL0XmGgTZOyv67P.jpg',
+    original_language: 'en',
+    original_title: 'Once Upon a Snowman',
+    genre_ids: [16, 10751, 35, 14],
+    title: 'Once Upon a Snowman',
+    vote_average: 7,
+    overview:
+      'The previously untold origins of Olaf, the innocent and insightful, summer-loving snowman are revealed as we follow Olaf’s first steps as he comes to life and searches for his identity in the snowy mountains outside Arendelle.',
+    release_date: '2020-10-23',
+  },
+  {
+    popularity: 588.401,
+    vote_count: 42,
+    video: false,
+    poster_path: '/e98dJUitAoKLwmzjQ0Yxp1VQrnU.jpg',
+    id: 571384,
+    adult: false,
+    backdrop_path: '/5HahZPsGGaDgnFb68J49ZwdwU0b.jpg',
+    original_language: 'en',
+    original_title: 'Come Play',
+    genre_ids: [27],
+    title: 'Come Play',
+    vote_average: 6.5,
+    overview:
+      'A lonely young boy feels different from everyone else. Desperate for a friend, he seeks solace and refuge in his ever-present cell phone and tablet. When a mysterious creature uses the boy’s devices against him to break into our world, his parents must fight to save their son from the monster beyond the screen.',
+    release_date: '2020-10-28',
+  },
+];
+
+export const {width, height} = Dimensions.get('screen');
+export const OVERFLOW_HEIGHT = 70;
+export const SPACING = 10;
+export const ITEM_WIDTH = width * 0.76;
+export const ITEM_HEIGHT = ITEM_WIDTH * 1.7;
+export const VISIBLE_ITEMS = 3;
